@@ -1,19 +1,21 @@
 h1 {
   font-size: 25px;
-  text-align: center;
+  text-align: left;
+  padding: 10px;
 }
 
-#SideBar {
+/* #SideBar {
   width: 30%;
   background-color: red;
   position: absolute;
   z-index:99;
-}
+} */
 
 input.form-control {
   margin: 10px;
   padding: 10px;
-  width: 90%;
+  width: 70vh;
+  border: 1px solid rgba(0,0,0,.125);
 }
 
 #MapDiv {
