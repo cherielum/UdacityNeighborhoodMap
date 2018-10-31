@@ -50,7 +50,7 @@ class App extends Component {
      fourSquareAPI.search({
        near: "Atlanta, GA",
        query: "Museum",
-       limit: 15
+       limit: 6
      }).then (results => {
         const { venues } = results.response;
         const { center } = results.response.geocode.feature.geometry;
