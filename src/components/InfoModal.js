@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 //import './App.css';
+import ListItem from './ListItem';
 
-class infoModal extends React.Component{
+
+export default class InfoModal extends Component{
     render() {
-        return (
-            <p> Info Modal</p>
-        )
+        return (<ul className="list-group">
+          {this.props.venues && this.props.venues.map((venue, index) =>
+                 (<ListItem key={index} {...venue} listItemClick={this.props.listItemClick} />)
+           )}
+        </ul>);
+      }
     }
-}
-
-export default infoModal;
