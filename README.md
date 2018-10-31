@@ -1,26 +1,6 @@
-## Introduction
+## Neighborhood Map
 
-Welcome to a map of Atlanta, GA, USA. This project is built with NPM Install and React.js. This project is the final project of Udacity's Front End NanoDegree.
-
-This project was bootstrapped with <a href = "https://github.com/facebook/create-react-app"> Create React App</a>.
-
-## Dependencies
-
-- React
-- React Material UI
-- idb
-- Bootstrap
-- Google Maps API
-- FourSquare API
-- WikiPedia API
-
-## Feature
-
-- Responsive
-- Accessible
-- Mobile First
-- Single Page App
-- Offline First
+Welcome to a map of museums in Atlanta, GA, USA. This project is built with NPM Install and React.js. This project is the final project of Udacity's Front End NanoDegree.
 
 ## How To Run
 
@@ -29,4 +9,23 @@ This project was bootstrapped with <a href = "https://github.com/facebook/create
 - Open terminal and change directory into project's root
 - Run npm install
 - Run npm start
-- Browser shoudl open to localhost:3000
+- Browser should open to localhost:3000
+
+## Dependencies
+
+- React
+- Google Maps API
+- FourSquare API
+- React-google-maps npm
+- Bootstrap 4
+
+## Feature
+
+- Responsive
+- Accessible
+- Mobile First
+- Single Page App
+
+## Create React App
+
+This project was bootstrapped with <a href = "https://github.com/facebook/create-react-app"> Create React App</a>.
