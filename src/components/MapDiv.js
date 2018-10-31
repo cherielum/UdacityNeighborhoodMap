@@ -5,7 +5,8 @@ import React,
 
 import { withScriptjs,
          withGoogleMap,
-         GoogleMap, Marker,
+         GoogleMap,
+         Marker,
          InfoWindow }
          from "react-google-maps";
 
@@ -45,7 +46,7 @@ export default class MapDiv extends Component {
             {...this.props}
             googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAxzOKni7hTTsPqPWUVWbIdTOZTJSM4zto"
             loadingElement={<div style={{ height: `100%` }} />}
-            containerElement={<div style={{ height: `400px` }} />}
+            containerElement={<div style={{ height: `100vh` }} />}
             mapElement={<div style={{ height: `100%` }} />}
           />
         );

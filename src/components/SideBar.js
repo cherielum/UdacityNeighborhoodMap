@@ -38,11 +38,11 @@ export default class sidebar extends Component{
         };
 
         render() {
-          return (<div>
+          return (<div id="SideBar">
             <h1> Museums in Atlanta!</h1>
             <form className="form-inline mt-4 mb-4">
               <i className="fa fa-search" aria-hidden="true"></i>
-                <input className="form-control form-control-sm ml-3 w-75" type={"search"} placeholder={"Type in your museum of choice"} aria-label="Search" onChange={this.workChange}/>
+                <input className="form-control form-control-sm ml-3 w-75" type={"search"} placeholder={"Type museum"} aria-label="Search" onChange={this.workChange}/>
             </form>
             <InfoModal {...this.props}
             venues={this.workFilterVenues()}
