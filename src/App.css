@@ -1,9 +1,9 @@
-h1 {
+/* h1 {
   font-size: 25px;
   text-align: center;
-}
+} */
 
-#SideBar {
+/* #SideBar {
   width: 30%;
   background-color: red;
   position: absolute;
@@ -14,17 +14,10 @@ input.form-control {
   margin: 10px;
   padding: 10px;
   width: 90%;
-}
+} */
 
-#MapDiv {
-  height: 100vh;
-}
 
-#InfoModal {
-  text-align: center;
-  color: gray;
-}
-
+/*
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,15 +27,21 @@ input.form-control {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+body{
+  background-color: rgb(13, 184, 231);
 }
 
+
 .list-group-item {
-  position: relative;
+  /* position: relative;
   display: block;
   padding: .75rem 0rem .75rem 0rem;
   margin-left: -30px;
   margin-bottom: -1px;
-  margin-right: 10px;
-  background-color: #14bce2;
-  border: 1px solid rgba(0,0,0,.125);
+  margin-right: 10px; */
+  background-color: #caeff6;
+  /* border: 1px solid rgba(0,0,0,.125); */
 }
+
