@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+=======
+
+/* #SideBar {
+  width: 30%;
+  background-color: red;
+  position: absolute;
+  z-index:99;
+} */
+
+/*
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+>>>>>>> 4e5abb63fe020dc58eb010fb447ae48a058d103b
 body{
   background-color: rgb(13, 184, 231);
 }

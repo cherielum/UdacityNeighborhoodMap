@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../App.css';
+//import '../App.css';
 import InfoModal from './InfoModal';
 
-export default class sidebar extends Component{
+export default class Sidebar extends Component{
         constructor() {
           super();
           this.state = {

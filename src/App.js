@@ -51,6 +51,7 @@ class App extends Component {
        near: "New York, NY",
        query: "Museum",
        limit: 8
+
      }).then (results => {
         const { venues } = results.response;
         const { center } = results.response.geocode.feature.geometry;
