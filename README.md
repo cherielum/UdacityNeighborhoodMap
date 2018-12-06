@@ -1,6 +1,6 @@
 ## Neighborhood Map
 
-Welcome to a map of museums in Atlanta, GA, USA. This project is built with NPM Install and React.js. This project is the final project of Udacity's Front End NanoDegree.
+Welcome to a map of museums in New York, NY, USA. This project is built with NPM Install and React.js. This project is the final project of Udacity's Front End NanoDegree.
 
 ## How To Run
 
