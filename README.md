@@ -15,7 +15,7 @@ Welcome to a map of museums in New York, NY, USA.
 
 - React
 - Google Maps API
-- FourSquare API
+- Foursquare API
 - React-google-maps npm
 - Bootstrap 4
 
@@ -25,7 +25,3 @@ Welcome to a map of museums in New York, NY, USA.
 - Accessible
 - Mobile First
 - Single Page App
-
-## Create React App
-
-This project was bootstrapped with <a href = "https://github.com/facebook/create-react-app"> Create React App</a>.
